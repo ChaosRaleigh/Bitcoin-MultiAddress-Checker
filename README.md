@@ -17,7 +17,7 @@
 2) Type `sudo apt-get fromdos`.
 3) Power up your virtual machine with Linux
 4) Navigate to your shared folder. `cd /media/yoursharedfolder` 
-5) Open the terminal. Type `wget http://addresses.loyce.club/blockchair_bitcoin_addresses_and_balance_September_08_2022.tsv.gz -0 - | gunzip > latestbtcaddress.txt`
+5) Open the terminal. Type `wget http://addresses.loyce.club/blockchair_bitcoin_addresses_and_balance_September_08_2022.tsv.gz -O - | gunzip > latestbtcaddress.txt`
 6) type `join <(sort latestbtcaddress.txt) <(sort mylist.txt | fromdos) > output.txt`
 7) cat output.txt to check if your own list has balances inside. 
 
