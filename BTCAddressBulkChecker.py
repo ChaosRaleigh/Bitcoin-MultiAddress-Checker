@@ -1,5 +1,12 @@
-from audioop import add
-from operator import index
+# ====================================================================================================================================================
+# Name        : BTCAddressBulkChecker.py
+# Author      : Peter Andrei Limpoco Bunao
+# Version     : 1.0.0
+# Date        : September 09, 2022
+# Copyright   : MIT
+# Description : Use this to query 1000 BTC Addresses. 
+# ====================================================================================================================================================
+
 from requests import get
 import pandas as pd
 import json

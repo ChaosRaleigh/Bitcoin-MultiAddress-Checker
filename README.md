@@ -26,11 +26,13 @@
 1) Open your Microsoft Excel. 
 2) Click the Data tab and import the output.txt. 
 3) Save as output.csv.
+4) Run BTCAddressBulkChecker.py
 
 ## Misc
 1) The BTC addresses dump can also be found from this website https://blockchair.com/dumps. 
 2) Click Bitcoin/Addresses and install the tsv file. We cannot use windows to open this tsv file as it contains millions of BTC addresses. I personally used Kali Linux to do this ;).
 3) Remember that when creating a notepad in Windows it is considered a DOS file so when importing it in Linux.
+4) API Limitation to 1000 BTC Address Calls.
 
 ## Credits
 ### I humbly appreciate Loyce for hosting a server to store the database dump. 
