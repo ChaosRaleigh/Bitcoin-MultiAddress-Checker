@@ -14,11 +14,11 @@
 ## Here are the steps to check unlimited amount of address
 
 1) Create a shared folder on your VirtualBox. Ensure that your list of addresses is inside the folder.
-2) Type sudo apt-get fromdos.
+2) Type `sudo apt-get fromdos`.
 3) Power up your virtual machine with Linux
-4) Navigate to your shared folder. cd /media/yoursharedfolder 
-5) Open the terminal. Type wget http://addresses.loyce.club/blockchair_bitcoin_addresses_and_balance_September_08_2022.tsv.gz -0 - | gunzip > latestbtcaddress.txt
-6) type join <(sort latestbtcaddress.txt) <(sort mylist.txt | fromdos) > output.txt
+4) Navigate to your shared folder. `cd /media/yoursharedfolder` 
+5) Open the terminal. Type `wget http://addresses.loyce.club/blockchair_bitcoin_addresses_and_balance_September_08_2022.tsv.gz -0 - | gunzip > latestbtcaddress.txt`
+6) type `join <(sort latestbtcaddress.txt) <(sort mylist.txt | fromdos) > output.txt`
 7) cat output.txt to check if your own list has balances inside. 
 
 ## So what is the BTCAddressBulkChecker.py for????
