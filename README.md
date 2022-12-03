@@ -21,7 +21,7 @@
 6) type `join <(sort latestbtcaddress.txt) <(sort mylist.txt | fromdos) > output.txt`
 7) cat output.txt to check if your own list has balances inside. 
 
-## So what is the BTCAddressBulkChecker.py for????
+## So what is the BTCAddressBulkChecker.py for?
 ### Well, if you want to verify your output.txt to another blockchain explorer like blockchain.com, follow these steps.
 1) Open your Microsoft Excel. 
 2) Click the Data tab and import the output.txt. 
